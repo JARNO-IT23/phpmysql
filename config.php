@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $dbname = 'helpdesk_system';
-$username = 'root';
-$password = '';
+$username = 'admin';
+$password = 'passw0rd';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
